@@ -23,7 +23,16 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-        <<INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS>>
+        ![image](https://github.com/user-attachments/assets/4a15bf22-4fee-449d-8a4e-7c95cd2b5b72)
+df.info()
+![image](https://github.com/user-attachments/assets/efaad6dd-c72c-42a7-8bfc-e2f5e531ab28)
+df.shape
+![image](https://github.com/user-attachments/assets/2b4d5e09-a314-40f1-bb57-9fc4c53bbf77)
+df.head(4)
+![image](https://github.com/user-attachments/assets/37e8a61a-da0a-47cc-9b44-bb766169f487)
+df.describe()
+df.set_index("PassengerId",inplace=True) df.describe()
+![image](https://github.com/user-attachments/assets/af661591-a928-49ea-88f4-837ffbd85864)
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+        Thus ,the Exploratory Data Analysis on the given data set was performed successfully.
